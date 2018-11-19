@@ -10,7 +10,7 @@ import java.io.File;
 @CucumberOptions(
         features ="src/test/java/features"
         ,glue= "seleniumGlueCode",
-        plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+        plugin = { "com.cucumber.listener.ExtentCucumberFormatter:report.html"},
         monochrome = true
 )
 
